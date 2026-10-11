@@ -26,7 +26,7 @@
   "hero": {
     "eyebrow": "AI-native platforms and software · Korea",
     "title": ["Five products.", "Four stages."],
-    "lede": "Brilliant Tiger builds AI-native platforms and software: a shipped desktop app, an open-source AI knowledge base, a platform prototype and two more platforms that are still on paper.",
+    "lede": "Brilliant Tiger builds AI-native platforms and software: a shipped desktop app, an open-source AI knowledge base, a platform in development and two more platforms that are still on paper.",
     "ctaPrimary": "See the products",
     "ctaSecondary": "How we use AI",
     "board": { "title": "Portfolio at a glance", "asOf": "As of {asOf}" },
@@ -38,7 +38,7 @@
     ],
     "statsNote": "Public-repository figures as of {asOf}."
   },
-  "status": { "shipped": "Shipped", "oss": "Open source", "prototype": "Prototype", "planning": "Planning" },
+  "status": { "shipped": "Shipped", "oss": "Open source", "development": "In development", "planning": "Planning" },
   "products": {
     "eyebrow": "Products",
     "title": "Where each one stands",
@@ -96,7 +96,7 @@
         "nameNote": "working title",
         "short": "Plan v2.0 · phases P0 to P5",
         "tagline": "A manufacturing ecosystem where anyone can turn an idea into a product.",
-        "summary": "A B2B2C platform for Korea that helps aspiring founders and companies find the right factory. The service plan and a six-phase development plan are written. Development is the next stage.",
+        "summary": "A B2B2C platform for Korea that helps aspiring founders and companies find the right factory. The service plan and a six-phase development plan are written. For now it is a plan only: development has not started.",
         "bulletsLabel": "In the plan",
         "bullets": [
           "Start from public data: Korea's registered-factory records, so buyers can search before a single factory signs up.",
@@ -113,7 +113,7 @@
           { "id": "P5", "label": "AI matching", "span": "2+ yrs" }
         ],
         "stepsLabel": "Development plan",
-        "stepsNote": "Solid outline: next up, about 17 weeks in the plan.",
+        "stepsNote": "Solid outline: the first three phases, about 17 weeks in the plan.",
         "privateNote": "Planning documents are internal. Ask us for an overview."
       },
       "instructor": {
@@ -121,7 +121,7 @@
         "nameNote": "working title",
         "short": "Service plan v1.0 · dev plan v1.5",
         "tagline": "A student-management platform built for instructors, not for academy owners.",
-        "summary": "A SaaS for Korean academy instructors to manage their students and parents with less effort: vocabulary tests, homework, lecture videos and parent reports in one place. The service plan, business plan and development plan are written.",
+        "summary": "A SaaS for Korean academy instructors to manage their students and parents with less effort: vocabulary tests, homework, lecture videos and parent reports in one place. The service plan, business plan and development plan are written. It comes right after Moshim.",
         "docsLabel": "Written so far",
         "docs": ["Service plan v1.0", "Business plan v16", "Development plan v1.5 + 16 appendices"],
         "bulletsLabel": "In the plan",
@@ -183,7 +183,7 @@
     "lede": "Dates come from release tags, git history and our plan documents.",
     "company": "Company",
     "items": {
-      "moshim-m0": { "title": "M0 prototype running", "text": "Kicked off on Oct 7. The MCP server, Korean search, member profiles and an inquiry API now run with three pilot members." },
+      "moshim-m0": { "title": "M0 up and running", "text": "Kicked off on Oct 7. The MCP server, Korean search, member profiles and an inquiry API now run with three pilot members." },
       "pet-110": { "title": "v1.1.0", "text": "The 30th release since the first public beta." },
       "pet-100": { "title": "v1.0.0", "text": "Version 1.0 released for macOS and Windows." },
       "wiki-start": { "title": "Started, MIT-licensed", "text": "A JSON-canonical, AI-maintained knowledge base with automatic context injection." },
@@ -198,7 +198,7 @@
       "title": "What is next",
       "items": [
         { "product": "moshim", "text": "More pilot members, and AI that builds sites, decks and shorts from uploaded material." },
-        { "product": "k-factory", "text": "Phases P0 to P2: setup, public-data collection with an admin CRM, user sign-up and factory search. About 17 weeks in the plan." }
+        { "product": "instructor", "text": "Right after Moshim. The service plan, business plan and a 36-week development plan are already written." }
       ]
     }
   },

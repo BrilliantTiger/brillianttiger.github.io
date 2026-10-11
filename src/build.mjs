@@ -64,7 +64,7 @@ function llmsTxt(site, t, stats) {
     '',
     '## 한국어 요약',
     '',
-    `빛나는 범(Brilliant Tiger)은 AI 네이티브 플랫폼과 소프트웨어를 만드는 대한민국 프로덕트 컴퍼니입니다. 제품은 Claude Pet(출시), llmwiki_json(오픈소스), 모심(프로토타입), K-Factory Hub와 Instructor Platform(기획 중) 다섯 가지입니다.`,
+    `빛나는 범(Brilliant Tiger)은 AI 네이티브 플랫폼과 소프트웨어를 만드는 대한민국 프로덕트 컴퍼니입니다. 제품은 Claude Pet(출시), llmwiki_json(오픈소스), 모심(개발 중), K-Factory Hub와 Instructor Platform(기획 중) 다섯 가지입니다.`,
     '',
   );
   return lines.join('\n');

@@ -17,7 +17,7 @@ BG = (20, 16, 12)
 INK = (246, 239, 228)
 MUTED = (201, 190, 174)
 ORANGE = (255, 122, 43)
-STATUS = {"shipped": (52, 211, 153), "oss": (142, 125, 255), "prototype": (255, 122, 43), "planning": (125, 178, 255)}
+STATUS = {"shipped": (52, 211, 153), "oss": (142, 125, 255), "development": (255, 122, 43), "planning": (125, 178, 255)}
 
 COPY = {
     "en": {
@@ -25,7 +25,7 @@ COPY = {
         "lines": ["Five products.", "Four stages."],
         "sub": "AI-native platforms and software, from first plan to shipped.",
         "name": ["Brilliant Tiger", "빛나는 범"],
-        "chips": [("Claude Pet", "shipped"), ("llmwiki_json", "oss"), ("Moshim", "prototype"), ("K-Factory Hub", "planning"), ("Instructor Platform", "planning")],
+        "chips": [("Claude Pet", "shipped"), ("llmwiki_json", "oss"), ("Moshim", "development"), ("K-Factory Hub", "planning"), ("Instructor Platform", "planning")],
         "spaced": True,
     },
     "ko": {
@@ -33,7 +33,7 @@ COPY = {
         "lines": ["제품 다섯 개.", "단계는 넷."],
         "sub": "기획부터 출시까지, AI 네이티브 플랫폼·소프트웨어.",
         "name": ["빛나는 범", "Brilliant Tiger"],
-        "chips": [("Claude Pet", "shipped"), ("llmwiki_json", "oss"), ("모심", "prototype"), ("K-Factory Hub", "planning"), ("Instructor Platform", "planning")],
+        "chips": [("Claude Pet", "shipped"), ("llmwiki_json", "oss"), ("모심", "development"), ("K-Factory Hub", "planning"), ("Instructor Platform", "planning")],
         "spaced": False,
     },
 }

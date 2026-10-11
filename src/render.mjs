@@ -278,7 +278,7 @@ function extra(c, p, it) {
   if (it.steps) {
     return html`<div class="steps">
       <p class="card__label">${it.stepsLabel}</p>
-      <ol class="steps__list">${it.steps.map((s, i) => html`<li class="step${i < 3 ? ' is-next' : ''}"><span class="step__id">${s.id}</span><span class="step__label">${s.label}</span><span class="step__span">${s.span}</span></li>`)}</ol>
+      <ol class="steps__list">${it.steps.map((s, i) => html`<li class="step${i < 3 ? ' is-first' : ''}"><span class="step__id">${s.id}</span><span class="step__label">${s.label}</span><span class="step__span">${s.span}</span></li>`)}</ol>
       <p class="steps__note">${it.stepsNote}</p>
     </div>`;
   }

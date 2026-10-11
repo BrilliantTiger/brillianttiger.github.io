@@ -41,7 +41,7 @@
     },
     {
       "id": "moshim",
-      "status": "prototype",
+      "status": "development",
       "hue": "magenta",
       "private": true,
       "wide": true,

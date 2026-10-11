@@ -132,7 +132,7 @@ ul, ol { margin: 0; }
 .chip i { width: 0.55em; height: 0.55em; border-radius: 50%; background: currentColor; }
 .chip--shipped { background: var(--mint-soft); color: var(--mint-ink); }
 .chip--oss { background: var(--violet-soft); color: var(--violet-ink); }
-.chip--prototype { background: var(--accent-soft); color: var(--accent-ink); }
+.chip--development { background: var(--accent-soft); color: var(--accent-ink); }
 .chip--planning { color: var(--blue-ink); border-style: dashed; border-color: currentColor; }
 .chip--planning i { background: transparent; border: 1.5px solid currentColor; }
 .link { display: inline-flex; align-items: center; gap: 0.5em; padding: 0.5em 1em; border: 1.5px solid var(--line-strong); border-radius: 999px; font: 650 0.9rem/1.2 var(--font); color: var(--ink); text-decoration: none; transition: background 0.15s, border-color 0.15s; }
@@ -219,7 +219,7 @@ ul, ol { margin: 0; }
 @media (max-width: 560px) { .board__short { white-space: normal; } }
 .stage .chip--shipped { background: rgba(52, 211, 153, 0.14); color: #6ee7b7; }
 .stage .chip--oss { background: rgba(142, 125, 255, 0.18); color: #b8aeff; }
-.stage .chip--prototype { background: rgba(255, 122, 43, 0.18); color: #ffa066; }
+.stage .chip--development { background: rgba(255, 122, 43, 0.18); color: #ffa066; }
 .stage .chip--planning { color: #9cc4ff; }
 
 .stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); margin: clamp(40px, 6vw, 72px) 0 0; border-top: 1px solid var(--line); }
@@ -296,7 +296,7 @@ ul, ol { margin: 0; }
 .steps { margin: 0 0 1.2rem; }
 .steps__list { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.5rem; margin: 0; padding: 0; list-style: none; }
 .step { display: flex; flex-direction: column; gap: 0.15rem; padding: 0.65rem 0.75rem; border: 1.5px dashed var(--line-strong); border-radius: 14px; }
-.step.is-next { border: 1.5px solid var(--hue); background: var(--hue-soft); }
+.step.is-first { border: 1.5px solid var(--hue); background: var(--hue-soft); }
 .step__id { font: 800 0.8rem/1 var(--mono); color: var(--hue-ink); }
 .step__label { font-weight: 650; font-size: 0.84rem; line-height: 1.3; }
 .step__span { font: 500 0.7rem/1.2 var(--mono); color: var(--ink-3); }
