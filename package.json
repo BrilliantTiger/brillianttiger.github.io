@@ -1,0 +1,18 @@
+{
+  "name": "brillianttiger.github.io",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Company website of Brilliant Tiger (빛나는 범). Zero dependencies.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node src/build.mjs",
+    "check": "node scripts/check.mjs",
+    "stats": "node scripts/update-stats.mjs",
+    "preview": "node scripts/preview.mjs",
+    "dev": "node scripts/dev.mjs",
+    "test": "node src/build.mjs && node scripts/check.mjs"
+  }
+}

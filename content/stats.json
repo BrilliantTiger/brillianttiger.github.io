@@ -1,0 +1,113 @@
+{
+  "asOf": "2026-10-11",
+  "repos": {
+    "claude-pet": {
+      "repo": "BrilliantTiger/claude-pet",
+      "stars": 2,
+      "license": "MIT",
+      "createdAt": "2026-07-13",
+      "commits": 249,
+      "claudeCommits": 179,
+      "releases": 30,
+      "downloads": 238,
+      "firstRelease": {
+        "tag": "v0.1-beta",
+        "date": "2026-07-13"
+      },
+      "latestRelease": {
+        "tag": "v1.1.0",
+        "date": "2026-10-06"
+      }
+    },
+    "llmwiki": {
+      "repo": "BrilliantTiger/llmwiki_json",
+      "stars": 2,
+      "license": "MIT",
+      "createdAt": "2026-08-20",
+      "commits": 15,
+      "claudeCommits": 9,
+      "releases": 0,
+      "downloads": 0,
+      "firstRelease": null,
+      "latestRelease": null
+    }
+  },
+  "totals": {
+    "commits": 264,
+    "claudeCommits": 188,
+    "claudePct": 71
+  },
+  "petReleaseSpanWeeks": 12,
+  "weekly": [
+    {
+      "week": "2026-07-06",
+      "total": 1,
+      "claude": 0
+    },
+    {
+      "week": "2026-07-13",
+      "total": 59,
+      "claude": 29
+    },
+    {
+      "week": "2026-07-20",
+      "total": 29,
+      "claude": 21
+    },
+    {
+      "week": "2026-07-27",
+      "total": 6,
+      "claude": 5
+    },
+    {
+      "week": "2026-08-03",
+      "total": 0,
+      "claude": 0
+    },
+    {
+      "week": "2026-08-10",
+      "total": 3,
+      "claude": 0
+    },
+    {
+      "week": "2026-08-17",
+      "total": 2,
+      "claude": 2
+    },
+    {
+      "week": "2026-08-24",
+      "total": 7,
+      "claude": 3
+    },
+    {
+      "week": "2026-08-31",
+      "total": 4,
+      "claude": 3
+    },
+    {
+      "week": "2026-09-07",
+      "total": 40,
+      "claude": 26
+    },
+    {
+      "week": "2026-09-14",
+      "total": 58,
+      "claude": 48
+    },
+    {
+      "week": "2026-09-21",
+      "total": 4,
+      "claude": 3
+    },
+    {
+      "week": "2026-09-28",
+      "total": 38,
+      "claude": 35
+    },
+    {
+      "week": "2026-10-05",
+      "total": 13,
+      "claude": 13
+    }
+  ]
+}

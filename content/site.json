@@ -1,0 +1,83 @@
+{
+  "url": "https://brillianttigercorp.com",
+  "defaultLang": "en",
+  "langs": ["en", "ko"],
+  "company": {
+    "name": "Brilliant Tiger",
+    "legalName": "빛나는 범",
+    "nameKo": "빛나는 범",
+    "founded": "2026-01-02",
+    "countryCode": "KR"
+  },
+  "contact": {
+    "email": "contact@brillianttigercorp.com",
+    "github": "https://github.com/BrilliantTiger"
+  },
+  "products": [
+    {
+      "id": "claude-pet",
+      "status": "shipped",
+      "hue": "mint",
+      "repo": "BrilliantTiger/claude-pet",
+      "license": "MIT",
+      "stack": ["Python", "AppKit", "Qt"],
+      "image": "/assets/img/claude-pet-cat.webp",
+      "links": [
+        { "key": "github", "url": "https://github.com/BrilliantTiger/claude-pet" },
+        { "key": "download", "url": "https://github.com/BrilliantTiger/claude-pet/releases/latest" }
+      ]
+    },
+    {
+      "id": "llmwiki",
+      "status": "oss",
+      "hue": "violet",
+      "repo": "BrilliantTiger/llmwiki_json",
+      "license": "MIT",
+      "stack": ["Python", "SQLite", "Bun", "TypeScript"],
+      "works": ["Claude Code", "Codex"],
+      "links": [
+        { "key": "github", "url": "https://github.com/BrilliantTiger/llmwiki_json" }
+      ]
+    },
+    {
+      "id": "moshim",
+      "status": "prototype",
+      "hue": "magenta",
+      "private": true,
+      "wide": true,
+      "stack": ["TypeScript", "Node.js 22", "MCP", "zod"],
+      "facts": { "tools": 16, "resources": 5, "prompts": 3, "tests": 69, "pilotMembers": 3, "kickoff": "2026-10-07" },
+      "links": []
+    },
+    {
+      "id": "k-factory",
+      "status": "planning",
+      "hue": "blue",
+      "private": true,
+      "stackKind": "planned",
+      "stack": ["Java 21", "Spring Boot", "PostgreSQL", "Next.js"],
+      "links": []
+    },
+    {
+      "id": "instructor",
+      "status": "planning",
+      "hue": "amber",
+      "private": true,
+      "stackKind": "planned",
+      "stack": ["Java 21", "Spring Boot", "Next.js", "Python"],
+      "links": []
+    }
+  ],
+  "timeline": [
+    { "id": "moshim-m0", "date": "2026-10-10", "product": "moshim" },
+    { "id": "pet-110", "date": "2026-10-06", "product": "claude-pet" },
+    { "id": "pet-100", "date": "2026-09-30", "product": "claude-pet" },
+    { "id": "wiki-start", "date": "2026-08-21", "product": "llmwiki" },
+    { "id": "pet-beta", "date": "2026-07-13", "product": "claude-pet" },
+    { "id": "ip-plan", "date": "2026-05-31", "product": "instructor" },
+    { "id": "kf-wireframes", "date": "2026-03-25", "product": "k-factory" },
+    { "id": "kf-devplan", "date": "2026-02-19", "product": "k-factory" },
+    { "id": "company", "date": "2026-01-02", "product": "company" },
+    { "id": "kf-plan", "date": "2025-12-26", "product": "k-factory" }
+  ]
+}

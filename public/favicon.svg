@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <rect width="128" height="128" rx="26" fill="#1B1410"/>
+  <g transform="translate(64 64) scale(0.78) translate(-64 -64)">
+  <polygon points="64,18 80,22 90,40 64,46" fill="#FF7A18" stroke="#FF7A18" stroke-width=".6" stroke-linejoin="round"/>
+  <polygon points="64,18 48,22 38,40 64,46" fill="#FF8B30" stroke="#FF8B30" stroke-width=".6" stroke-linejoin="round"/>
+  <polygon points="80,22 104,8 112,36 90,40" fill="#FFAA4D" stroke="#FFAA4D" stroke-width=".6" stroke-linejoin="round"/>
+  <polygon points="48,22 24,8 16,36 38,40" fill="#FFBC6A" stroke="#FFBC6A" stroke-width=".6" stroke-linejoin="round"/>
+  <polygon points="90,40 112,36 120,62 96,58" fill="#F2660A" stroke="#F2660A" stroke-width=".6" stroke-linejoin="round"/>
+  <polygon points="38,40 16,36 8,62 32,58" fill="#FF7616" stroke="#FF7616" stroke-width=".6" stroke-linejoin="round"/>
+  <polygon points="64,46 90,40 96,58 76,56" fill="#E85A05" stroke="#E85A05" stroke-width=".6" stroke-linejoin="round"/>
+  <polygon points="64,46 38,40 32,58 52,56" fill="#F56B14" stroke="#F56B14" stroke-width=".6" stroke-linejoin="round"/>
+  <polygon points="64,46 76,56 64,66" fill="#FF9333" stroke="#FF9333" stroke-width=".6" stroke-linejoin="round"/>
+  <polygon points="64,46 52,56 64,66" fill="#FFA44F" stroke="#FFA44F" stroke-width=".6" stroke-linejoin="round"/>
+  <polygon points="76,56 96,58 98,80 78,78 64,66" fill="#FF8226" stroke="#FF8226" stroke-width=".6" stroke-linejoin="round"/>
+  <polygon points="52,56 32,58 30,80 50,78 64,66" fill="#FF9642" stroke="#FF9642" stroke-width=".6" stroke-linejoin="round"/>
+  <polygon points="96,58 120,62 106,92 98,80" fill="#E85D0A" stroke="#E85D0A" stroke-width=".6" stroke-linejoin="round"/>
+  <polygon points="32,58 8,62 22,92 30,80" fill="#F67019" stroke="#F67019" stroke-width=".6" stroke-linejoin="round"/>
+  <polygon points="78,78 98,80 106,92 82,114 70,100" fill="#FFB45E" stroke="#FFB45E" stroke-width=".6" stroke-linejoin="round"/>
+  <polygon points="50,78 30,80 22,92 46,114 58,100" fill="#FFC479" stroke="#FFC479" stroke-width=".6" stroke-linejoin="round"/>
+  <polygon points="64,66 78,78 70,100 64,104" fill="#FFE9CC" stroke="#FFE9CC" stroke-width=".6" stroke-linejoin="round"/>
+  <polygon points="64,66 50,78 58,100 64,104" fill="#FFF1DD" stroke="#FFF1DD" stroke-width=".6" stroke-linejoin="round"/>
+  <polygon points="64,104 70,100 82,114 64,120" fill="#FFDDB6" stroke="#FFDDB6" stroke-width=".6" stroke-linejoin="round"/>
+  <polygon points="64,104 58,100 46,114 64,120" fill="#FFE8CA" stroke="#FFE8CA" stroke-width=".6" stroke-linejoin="round"/>
+  <polygon points="86,26 102,14 106,32" fill="#FFE4BF" stroke="#FFE4BF" stroke-width=".6" stroke-linejoin="round"/>
+  <polygon points="42,26 26,14 22,32" fill="#FFEED6" stroke="#FFEED6" stroke-width=".6" stroke-linejoin="round"/>
+  <polygon points="64,18 68.6,19.2 66.6,32 64,45 61.4,32 59.4,19.2" fill="#1B1410"/>
+  <polygon points="66,26 79,24 77.5,28.5 66,30" fill="#1B1410"/>
+  <polygon points="62,26 49,24 50.5,28.5 62,30" fill="#1B1410"/>
+  <polygon points="66,35 85,32 83,37 66,39" fill="#1B1410"/>
+  <polygon points="62,35 43,32 45,37 62,39" fill="#1B1410"/>
+  <polygon points="112.2,38 99,44 115,47" fill="#1B1410"/>
+  <polygon points="15.8,38 29,44 13,47" fill="#1B1410"/>
+  <polygon points="118.2,56 102,60 118.6,66" fill="#1B1410"/>
+  <polygon points="9.8,56 26,60 9.4,66" fill="#1B1410"/>
+  <polygon points="114.5,74 99,77 110,84" fill="#1B1410"/>
+  <polygon points="13.5,74 29,77 18,84" fill="#1B1410"/>
+  <polygon points="78,52 86,47 96,46 88,56" fill="#FFC845"/>
+  <polygon points="50,52 42,47 32,46 40,56" fill="#FFC845"/>
+  <ellipse cx="87.6" cy="51.4" rx="1.7" ry="3.5" transform="rotate(-20 87.6 51.4)" fill="#1B1410"/>
+  <ellipse cx="40.4" cy="51.4" rx="1.7" ry="3.5" transform="rotate(20 40.4 51.4)" fill="#1B1410"/>
+  <polygon points="55,66 73,66 64,77.5" fill="#1B1410"/>
+  <path d="M64 77.5V85M64 85Q58.5 91.5 51.5 89M64 85Q69.5 91.5 76.5 89" fill="none" stroke="#1B1410" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

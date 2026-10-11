@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.DS_Store
+.env
+.env.*
+*.log
+
+# Local-only documents (scans, IDs): never commit
+docs/*.jpg
+docs/*.JPG
+docs/*.jpeg
+docs/*.JPEG
+docs/*.png
+docs/*.pdf

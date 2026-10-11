@@ -1,0 +1,237 @@
+{
+  "lang": "en",
+  "htmlLang": "en",
+  "ogLocale": "en_US",
+  "switch": { "label": "한국어", "title": "한국어로 보기", "hreflang": "ko" },
+  "meta": {
+    "title": "Brilliant Tiger — AI-native platforms and software",
+    "description": "Brilliant Tiger (빛나는 범) is a product company in Korea building AI-native platforms and software: Claude Pet, llmwiki_json, Moshim, K-Factory Hub and Instructor Platform.",
+    "ogAlt": "Brilliant Tiger. Five products. Four stages."
+  },
+  "a11y": {
+    "skip": "Skip to content",
+    "home": "Brilliant Tiger, home",
+    "menu": "Menu",
+    "primaryNav": "Primary",
+    "theme": "Switch between light and dark theme",
+    "opensNewTab": "(opens in a new tab)"
+  },
+  "nav": [
+    { "id": "products", "label": "Products" },
+    { "id": "ai", "label": "AI" },
+    { "id": "progress", "label": "Progress" },
+    { "id": "about", "label": "About" }
+  ],
+  "cta": { "contact": "Contact" },
+  "hero": {
+    "eyebrow": "AI-native platforms and software · Korea",
+    "title": ["Five products.", "Four stages."],
+    "lede": "Brilliant Tiger builds AI-native platforms and software: a shipped desktop app, an open-source AI knowledge base, a platform prototype and two more platforms that are still on paper.",
+    "ctaPrimary": "See the products",
+    "ctaSecondary": "How we use AI",
+    "board": { "title": "Portfolio at a glance", "asOf": "As of {asOf}" },
+    "stats": [
+      { "value": "{releases}", "label": "Claude Pet releases in {weeks} weeks" },
+      { "value": "{ossCount}", "label": "open-source projects under the MIT license" },
+      { "value": "{claudePct}%", "label": "of commits in our public repos co-authored with an AI agent" },
+      { "value": "{moshimTools}", "label": "MCP tools in Moshim's server" }
+    ],
+    "statsNote": "Public-repository figures as of {asOf}."
+  },
+  "status": { "shipped": "Shipped", "oss": "Open source", "prototype": "Prototype", "planning": "Planning" },
+  "products": {
+    "eyebrow": "Products",
+    "title": "Where each one stands",
+    "lede": "From a shipped desktop app to platforms that are still on paper. Here is what we are building and how far along each piece really is.",
+    "links": { "website": "Website", "github": "GitHub", "download": "Download" },
+    "labels": { "stack": "Stack", "plannedStack": "Planned stack", "works": "Works with", "platforms": "Platforms" },
+    "items": {
+      "claude-pet": {
+        "name": "Claude Pet",
+        "short": "{version} · macOS + Windows",
+        "tagline": "A desktop pet that watches your Claude usage.",
+        "summary": "A free companion that roams your screen and shows session, weekly and per-model usage in one compact pill, with reset timers and a startled look when your token burn spikes.",
+        "bullets": [
+          "Server-reported usage through your existing Claude Code sign-in, with a local-log fallback.",
+          "Native on macOS (Developer ID signed, Apple-notarized) and Windows 10/11.",
+          "Five built-in pets, plus your own with a simple `pet.json` and spritesheet."
+        ],
+        "meta": "MIT · {releases} releases since {petSince}",
+        "imageAlt": "Claude Pet: a black cat in a hooded jacket beside a usage pill that reads Session 11%, Weekly 21%.",
+        "pill": { "session": "Session", "weekly": "Weekly", "reset": "Resets in 4h 40m · weekly in 6d 9h" }
+      },
+      "llmwiki": {
+        "name": "llmwiki_json",
+        "short": "MIT · AI knowledge base",
+        "tagline": "A self-updating knowledge base for your AI.",
+        "summary": "A JSON-canonical knowledge base after Karpathy's LLM Wiki pattern: the model integrates what it learns once and keeps it current, instead of re-assembling raw sources on every question. What is relevant to a prompt is injected into the AI's context automatically.",
+        "bullets": [
+          "A `UserPromptSubmit` hook picks only the blocks relevant to each prompt and injects them into the AI's context.",
+          "Built-in 2D and 3D graph view, no Obsidian required.",
+          "Deterministic builds: the same input gives byte-identical output, checked by parity tooling."
+        ],
+        "meta": "MIT · started {wikiSince}"
+      },
+      "moshim": {
+        "name": "Moshim",
+        "nameNote": "모심",
+        "short": "M0 · MCP server running",
+        "tagline": "Hire talent. Book hosts. Get found.",
+        "summary": "An AI platform that turns your material into a personal site, résumé, slide deck and short-form video, and lets hiring teams, producers and agencies search, cast, recruit and propose in one place.",
+        "sides": [
+          { "title": "For members", "text": "Personal site, résumé edits by chat, slide deck, vertical shorts (15–60 s)" },
+          { "title": "For finders", "text": "Search, casting, hiring and proposals" }
+        ],
+        "bulletsLabel": "Running today",
+        "bullets": [
+          "An MCP server with {moshimTools} tools, {moshimResources} resources and {moshimPrompts} prompts, so members update their own careers by chatting with an AI assistant.",
+          "Korean-language search by role, region, career and open dates.",
+          "Every profile is a static page with JSON-LD, `llms.txt` and a sitemap, republished the moment it changes."
+        ],
+        "meta": "Kicked off {moshimKickoff} · {moshimPilot} pilot members · {moshimTests} tests",
+        "privateNote": "Private preview. Ask us for a walkthrough."
+      },
+      "k-factory": {
+        "name": "K-Factory Hub",
+        "nameNote": "working title",
+        "short": "Plan v2.0 · phases P0 to P5",
+        "tagline": "A manufacturing ecosystem where anyone can turn an idea into a product.",
+        "summary": "A B2B2C platform for Korea that helps aspiring founders and companies find the right factory. The service plan and a six-phase development plan are written. Development is the next stage.",
+        "bulletsLabel": "In the plan",
+        "bullets": [
+          "Start from public data: Korea's registered-factory records, so buyers can search before a single factory signs up.",
+          "Sales-led onboarding with an admin CRM, and business verification against national tax records.",
+          "Korean by design: KS and KC certification, prime–subcontractor structures, government support matching."
+        ],
+        "meta": "Working title · service plan v2.0, Dec 2025",
+        "steps": [
+          { "id": "P0", "label": "Setup", "span": "1 wk" },
+          { "id": "P1", "label": "Public data + admin CRM", "span": "9 wks" },
+          { "id": "P2", "label": "Users + factory search", "span": "7 wks" },
+          { "id": "P3", "label": "RFQ + payments", "span": "6–12 mo" },
+          { "id": "P4", "label": "RFX + bidding", "span": "1–2 yrs" },
+          { "id": "P5", "label": "AI matching", "span": "2+ yrs" }
+        ],
+        "stepsLabel": "Development plan",
+        "stepsNote": "Solid outline: next up, about 17 weeks in the plan.",
+        "privateNote": "Planning documents are internal. Ask us for an overview."
+      },
+      "instructor": {
+        "name": "Instructor Platform",
+        "nameNote": "working title",
+        "short": "Service plan v1.0 · dev plan v1.5",
+        "tagline": "A student-management platform built for instructors, not for academy owners.",
+        "summary": "A SaaS for Korean academy instructors to manage their students and parents with less effort: vocabulary tests, homework, lecture videos and parent reports in one place. The service plan, business plan and development plan are written.",
+        "docsLabel": "Written so far",
+        "docs": ["Service plan v1.0", "Business plan v16", "Development plan v1.5 + 16 appendices"],
+        "bulletsLabel": "In the plan",
+        "bullets": [
+          "One place for everything an instructor does for a student: vocabulary tests, homework, lecture videos and parent reports.",
+          "AI drafts the first round of feedback, and the instructor reviews it before anything is sent.",
+          "Students join with the instructor's invite code, and parents can optionally join to follow progress."
+        ],
+        "meta": "Working title · plans written May 2026 · 36-week build plan",
+        "privateNote": "Planning documents are internal. Ask us for an overview."
+      }
+    },
+    "privateTitle": "Private preview"
+  },
+  "ai": {
+    "eyebrow": "AI",
+    "title": "How we use AI",
+    "lede": "AI is part of how we build, and we design our products so AI agents can use them: MCP servers, hooks and files that AI can read.",
+    "a": {
+      "title": "AI in our git history",
+      "statLabel": "of commits in our two public repositories are co-authored by an AI coding agent ({claudeCommits} of {commits}).",
+      "chartAria": "Weekly commits across claude-pet and llmwiki_json, July to October 2026, split by co-authorship with an AI coding agent.",
+      "chartNote": "Commits per week",
+      "legendClaude": "Co-authored with AI",
+      "legendOther": "Other commits",
+      "tip": "Week of {week}: {total} commits, {claude} co-authored with AI",
+      "footnote": "Counted from the public git history of claude-pet and llmwiki_json as of {asOf}. Co-authorship is read from `Co-Authored-By` commit trailers. Both repositories ship agent instruction files (`AGENTS.md`)."
+    },
+    "b": {
+      "title": "Moshim speaks MCP",
+      "text": "Members edit their own careers by chatting with an AI assistant, and hiring teams search and send inquiries from one too. Three permission levels, hashed tokens and rate-limited public inquiries keep it safe.",
+      "counts": [
+        { "n": "{moshimTools}", "l": "tools" },
+        { "n": "{moshimResources}", "l": "resources" },
+        { "n": "{moshimPrompts}", "l": "prompts" }
+      ],
+      "user": "Add the Oct 11 marathon MC gig to my careers and publish.",
+      "assistant": "Done. Your page, profile and search index are up to date.",
+      "caption": "Illustrative flow built from Moshim's MCP tools."
+    },
+    "c": {
+      "title": "llmwiki_json feeds your AI the right context",
+      "text": "Every prompt triggers a lookup. Only the blocks that match the question are injected, never whole pages, and an error never blocks a prompt.",
+      "flow": ["Prompt", "UserPromptSubmit hook", "SQLite index", "Relevant blocks", "AI context"]
+    },
+    "d": {
+      "title": "Legible to AI by default",
+      "text": "Moshim republishes `llms.txt`, a sitemap and JSON-LD every time a profile changes. Claude Pet and this site publish `llms.txt` too.",
+      "chips": ["llms.txt", "sitemap.xml", "JSON-LD", "MCP"]
+    },
+    "e": {
+      "title": "Plans drafted with AI",
+      "text": "K-Factory Hub's service plan and phased development plan were worked out in AI conversations."
+    }
+  },
+  "progress": {
+    "eyebrow": "Progress",
+    "title": "What happened, in order",
+    "lede": "Dates come from release tags, git history and our plan documents.",
+    "company": "Company",
+    "items": {
+      "moshim-m0": { "title": "M0 prototype running", "text": "Kicked off on Oct 7. The MCP server, Korean search, member profiles and an inquiry API now run with three pilot members." },
+      "pet-110": { "title": "v1.1.0", "text": "The 30th release since the first public beta." },
+      "pet-100": { "title": "v1.0.0", "text": "Version 1.0 released for macOS and Windows." },
+      "wiki-start": { "title": "Started, MIT-licensed", "text": "A JSON-canonical, AI-maintained knowledge base with automatic context injection." },
+      "pet-beta": { "title": "First public beta", "text": "v0.1-beta on GitHub Releases." },
+      "ip-plan": { "title": "Service plan v1.0", "text": "Plans for a student-management platform for instructors: service plan, business plan and a development plan with 16 appendices." },
+      "kf-wireframes": { "title": "Supplier-portal wireframes", "text": "Screens for the supplier side of the platform." },
+      "kf-devplan": { "title": "Development plan, P0 to P5", "text": "Six phases, from project setup to AI matching." },
+      "company": { "title": "Brilliant Tiger founded", "text": "Registered as a business in Korea." },
+      "kf-plan": { "title": "Service plan v2.0", "text": "Vision, strategy and a phased roadmap for a Korean manufacturing platform." }
+    },
+    "next": {
+      "title": "What is next",
+      "items": [
+        { "product": "moshim", "text": "More pilot members, and AI that builds sites, decks and shorts from uploaded material." },
+        { "product": "k-factory", "text": "Phases P0 to P2: setup, public-data collection with an admin CRM, user sign-up and factory search. About 17 weeks in the plan." }
+      ]
+    }
+  },
+  "about": {
+    "eyebrow": "About",
+    "title": "Building in the open where we can",
+    "text": "Brilliant Tiger ([[ko:빛나는 범]]) is a registered business in Korea, started in January 2026. We build AI-native platforms and software, and publish what we can as open source. Every number on this page comes from our public repositories or our own project documents.",
+    "labels": {
+      "company": "Company",
+      "founded": "Founded",
+      "location": "Based in",
+      "focus": "Focus",
+      "products": "Products"
+    },
+    "values": { "location": "Korea", "focus": "AI-native platforms and software" },
+    "nameNote": {
+      "title": "Why [[ko:빛나는 범]]?",
+      "text": "[[ko:범]] is the native Korean word for tiger, and [[ko:빛나는]] means shining. Brilliant Tiger is its English twin."
+    }
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let's talk.",
+    "text": "Pilot a product, partner with us, or compare notes on building with AI.",
+    "email": "Email us",
+    "github": "Follow us on GitHub"
+  },
+  "footer": {
+    "copyright": "© {year} Brilliant Tiger"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "text": "That page does not exist, or it moved.",
+    "back": "Back to the home page"
+  }
+}
