@@ -72,6 +72,7 @@ function jsonLd(c) {
         url: `${base}/`,
         logo: `${base}/assets/logo/logo-icon-512.png`,
         foundingDate: site.company.founded,
+        taxID: site.company.registrationNumber,
         foundingLocation: { '@type': 'Country', name: site.company.countryCode },
         description: t.meta.description,
         sameAs: [site.contact.github],
@@ -190,6 +191,7 @@ function footer(c) {
         <span class="brand__text"><span class="brand__name">Brilliant Tiger</span><span class="brand__ko" lang="ko">${site.company.nameKo}</span></span>
       </a>
       <p class="footer__copy">${fmt(t.footer.copyright, vars)}</p>
+      <p class="footer__reg">${fmt(t.footer.registration, { number: site.company.registrationNumber })}</p>
     </div>
     <div class="footer__links">
       ${site.products.flatMap((p) => p.links.filter((l) => l.key === 'github' || l.key === 'website').slice(0, 1).map((l) => html`<a href="${l.url}" target="_blank" rel="noopener">${t.products.items[p.id].name}${newTab(c)}</a>`))}

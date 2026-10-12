@@ -38,6 +38,8 @@ function llmsTxt(site, t, stats) {
     '',
     `Founded ${fmtDate(site.company.founded, 'en', { year: 'numeric', month: 'long', day: 'numeric' })} in Korea. AI is part of how we build, and our products are designed to work with AI agents through MCP servers, hooks and open file formats.`,
     '',
+    `Business registration number (Korea): ${site.company.registrationNumber}`,
+    '',
     '## Products',
     '',
   ];

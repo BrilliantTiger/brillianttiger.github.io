@@ -227,7 +227,8 @@
     "github": "Follow us on GitHub"
   },
   "footer": {
-    "copyright": "© {year} Brilliant Tiger"
+    "copyright": "© {year} Brilliant Tiger",
+    "registration": "Korean business registration no. {number}"
   },
   "notFound": {
     "title": "Page not found",
